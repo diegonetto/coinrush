@@ -21,7 +21,7 @@
     "url": "git://github.com/diegonetto/coinrush.git"
   },
   "bin": {
-    "coinrush": "bin/coinrush"
+    "coinrush": "bin/coinrush.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
