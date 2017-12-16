@@ -1,0 +1,35 @@
+{
+  "name": "coinrush",
+  "version": "0.1.0",
+  "description": "A cryptocurrency price tracking and asset value estimation microservice.",
+  "keywords": [
+    "cryptocurrency",
+    "bitcoin",
+    "litecoin",
+    "ripple",
+    "stellar"
+  ],
+  "homepage": "https://github.com/diegonetto/coinrush",
+  "bugs": "https://github.com/diegonetto/coinrush/issues",
+  "author": {
+    "name": "Diego Netto",
+    "email": "diegormnetto@gmail.com",
+    "url": "https://github.com/diegonetto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diegonetto/coinrush.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "1.13.3"
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "license": "MIT"
+}
