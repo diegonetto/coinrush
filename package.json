@@ -1,6 +1,6 @@
 {
   "name": "coinrush",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cryptocurrency price tracking and asset value estimation microservice.",
   "keywords": [
     "cryptocurrency",
