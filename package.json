@@ -20,7 +20,9 @@
     "type": "git",
     "url": "git://github.com/diegonetto/coinrush.git"
   },
-  "main": "server.js",
+  "bin": {
+    "coinrush": "bin/coinrush"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -29,7 +31,13 @@
     "nodemon": "1.13.3"
   },
   "dependencies": {
-    "express": "4.16.2"
+    "axios": "0.17.1",
+    "cli-table2": "0.2.0",
+    "colors": "1.1.2",
+    "commander": "2.12.2",
+    "express": "4.16.2",
+    "humanize-plus": "1.8.2",
+    "ora": "1.3.0"
   },
   "license": "MIT"
 }
